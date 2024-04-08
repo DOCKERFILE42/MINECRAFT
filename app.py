@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Example usage:
-    url = "https://example.com/path with spaces"
+    url = "https://colab.research.google.com/drive/1MSA4lW8lxQZDyn5llaWzkFXUsM4397HQ?usp=sharing"
     quoted_url = quote(url)
     return f"Quoted URL: {quoted_url}"
 
